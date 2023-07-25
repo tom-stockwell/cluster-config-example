@@ -5,4 +5,4 @@ resources:
   - https://github.com/tom-stockwell/validated-patterns//patterns/multicloud-gitops/managed
 
 components:
-  - ../../../components/vault-server
+  - ../../../common/vault-server
