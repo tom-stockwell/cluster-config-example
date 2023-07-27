@@ -1,0 +1,7 @@
+- op: replace
+  path: /spec/policy-templates/0/objectDefinition/spec/object-templates/0/objectDefinition/spec/generators/0/git/repoURL
+  value: &url https://github.com/tom-stockwell/validated-patterns-example.git
+
+- op: replace
+  path: /spec/policy-templates/0/objectDefinition/spec/object-templates/0/objectDefinition/spec/template/spec/source/repoURL
+  value: *url

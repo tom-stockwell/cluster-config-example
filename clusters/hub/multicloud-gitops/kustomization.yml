@@ -8,3 +8,9 @@ resources:
 components:
   - ../../../components/vault-server
 
+patches:
+  - path: policy-cluster-config.patch.yml
+    target:
+      kind: Policy
+      name: cluster-config-applicationset
+
