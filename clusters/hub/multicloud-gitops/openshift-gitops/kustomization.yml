@@ -3,3 +3,6 @@ kind: Kustomization
 
 resources:
   - https://github.com/tom-stockwell/validated-patterns//patterns/multicloud-gitops/hub/openshift-gitops
+
+components:
+  - ../../../../components/cluster-config-repo

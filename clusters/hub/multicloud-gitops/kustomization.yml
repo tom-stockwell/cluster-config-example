@@ -6,5 +6,5 @@ resources:
   - openshift-gitops
 
 components:
-  - ../../../common/vault-server
+  - ../../../components/vault-server
 
